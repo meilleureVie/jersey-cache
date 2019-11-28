@@ -48,7 +48,7 @@ we can do this to cache a resource method ouput
   	@Path("hello")
   	@Cache(maxAge = 60 * 5) // caching for 5 minutes
   	public Object getCached() {
-    	return dao.get();
+		return dao.get();
   	}
 ```
 
@@ -63,7 +63,7 @@ public class CacheResource {
   	@Produces(MediaType.APPLICATION_JSON)
   	@Path("hello")
   	public Object getCached() {
-    	return dao.get();
+		return dao.get();
   	}
 }
 ```
