@@ -27,7 +27,7 @@ public class Application extends ResourceConfig {
 	
 		// Register cache feature as soft reference
 		// in this case soft references as used
-    	register(CacheDynamicFeature.class);
+		register(CacheDynamicFeature.class);
 		
 		//---or---
 		// here strong reference are used and cache size is 10kb
